@@ -1,0 +1,31 @@
+.navbar {
+  border-bottom: 1px solid #482c2d;
+  box-shadow: -3px 0px 20px 1px #e4aaaaa6;
+  position: relative;
+  background: grey;
+}
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: #efefef !important;
+}
+.portfolio-cards {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5%;
+}
+.card {
+  box-shadow: 20px -15px 10px 0px #847d7d87;
+  border: 1px solid #482c2d;
+  border-radius: 0.25rem;
+}
+.body {
+  background-color: #efefef;
+  height: 100vh;
+}
+.btn-primary {
+  color: #fee;
+  background-color: red;
+  border-color: #472c2d;
+}
